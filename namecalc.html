@@ -1,0 +1,22 @@
+<html>
+<script src="angular.js"></script>
+<script src="capp.js"></script>
+
+<body ng-app="namecalc">
+
+    <h2>name calculator</h2>
+ 
+    <div ng-controller="calcont">
+
+        your name:
+        <input type="text" 
+        ng-model="name"
+        ng-keyup="dispnum();"><br>
+            
+        total numeric value is {{total}}
+     
+    </div>
+
+    
+</body>
+</html>
